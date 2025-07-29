@@ -14,7 +14,7 @@ app.use(authRoutes);
 app.use(cartRoutes);
 
 mongoose.connect(
-  "mongodb+srv://patrasuman44:jayhind@clusterforflipkatbacken.rilorms.mongodb.net/",
+  "mongodb+srv://patrasuman44:jayhind@clusterforflipkatbacken.rilorms.mongodb.net/?retryWrites=true&w=majority&appName=ClusterForFlipkatBackend",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
